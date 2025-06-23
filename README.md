@@ -15,7 +15,7 @@ The environments and experiments are inspired by classical RL tasks. The agent l
 
 ## Part 1: 5x5 Grid World
 
-![Grid World 1](image1)
+![Grid World 1](./Part1.png)
 
 - **Environment:** 5x5 grid with walls (black cells), a start (A), a goal (G, +5 reward), and a terminal trap (T, -5 reward).
 - **Actions:** North, South, East, West.
@@ -40,7 +40,7 @@ The environments and experiments are inspired by classical RL tasks. The agent l
 
 ## Part 2: Two-Room Grid World
 
-![Grid World 2](image2)
+![Grid World 2](./Part2.png)
 
 - **Environment:** Two-room grid world (see above), with walls, narrow passage, start (A), goal (G, +5), trap (T, -5).
 - **Actions:** North, South, East, West.
