@@ -1,3 +1,7 @@
+Here is your updated README.md, seamlessly integrating your detailed setup and running instructions with the existing content, and reflecting your actual script names (G24AIT071_AAI_Part1.py and G24AIT071_AAI_Part2.py). I’ve also updated the image references and clarified the script usage throughout.
+
+---
+
 # Q-Learning Reinforcement Learning: Grid World Tasks
 
 This repository contains Q-learning implementations for solving custom grid world environments using Reinforcement Learning, with experiments focused on policy/value convergence and different hyperparameter settings.
@@ -36,6 +40,9 @@ The environments and experiments are inspired by classical RL tasks. The agent l
 3. **Epsilon Sensitivity (for γ=0.9)**
     - Plot number of steps to reach the goal per episode for different ε: 0.1, 0.3, 0.5.
 
+**Script for Part 1:**
+- `G24AIT071_AAI_Part1.py` — Implements and runs all experiments for the standard 5x5 grid world.
+
 ---
 
 ## Part 2: Two-Room Grid World
@@ -57,6 +64,9 @@ The environments and experiments are inspired by classical RL tasks. The agent l
 3. **Beta Sensitivity (for γ=0.9)**
     - Plot number of steps to reach the goal per episode for different β: 0.1, 0.3, 0.5.
 
+**Script for Part 2:**
+- `G24AIT071_AAI_Part2.py` — Implements and runs all experiments for the advanced two-room grid world.
+
 ---
 
 ## Hyperparameters (for all experiments)
@@ -67,32 +77,57 @@ The environments and experiments are inspired by classical RL tasks. The agent l
 
 ---
 
-## How to Run
+## SETUP INSTRUCTIONS
 
-1. **Requirements:**  
-   - Python 3.x
-   - numpy, matplotlib
+1. Open terminal/command prompt and navigate to the project folder.
 
-2. **Scripts:**  
-   - `gridworld.py` — Environment definitions
-   - `q_learning.py` — Q-learning implementations (ε-greedy and softmax)
-   - `plot_utils.py` — Functions to plot policies & value functions
+2. Create a virtual environment:
+   ```bash
+   python -m venv venv
+   ```
 
-3. **Running Experiments:**  
-   - Example:  
-     ```bash
-     python q_learning.py --part 1 --gamma 0.9 --epsilon 0.1
-     ```
-   - See script parameters for all combinations.
+3. Activate the virtual environment:
 
-4. **Outputs:**  
-   - Policy and value function plots per experiment (saved as PNGs)
-   - Learning curves (steps-vs-episode)
+   On Windows:
+   ```bash
+   venv\Scripts\activate
+   ```
+
+   On Mac/Linux:
+   ```bash
+   source venv/bin/activate
+   ```
+
+4. Install required packages:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+5. Verify installation:
+   ```bash
+   python -c "import numpy, matplotlib; print('Setup complete!')"
+   ```
 
 ---
 
-## Results
+## RUNNING THE PROGRAMS
 
+To run Part 1 (Basic GridWorld):
+```bash
+python G24AIT071_AAI_Part1.py
+```
+
+To run Part 2 (Advanced GridWorld):
+```bash
+python G24AIT071_AAI_Part2.py
+```
+
+---
+
+## Outputs
+
+- Policy and value function plots per experiment (saved as PNGs)
+- Learning curves (steps-vs-episode)
 - Example plots and learning curves are saved in the `results/` folder.
 - See the notebook/script output for detailed convergence plots.
 
@@ -114,3 +149,7 @@ MIT License
 ## Author
 
 - [Krishanpal Singh Rajput] (g24ait071@iitj.ac.in)
+
+---
+
+Let me know if you’d like any further formatting, sections, or clarifications!
