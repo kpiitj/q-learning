@@ -1,7 +1,3 @@
-Here is your updated README.md, seamlessly integrating your detailed setup and running instructions with the existing content, and reflecting your actual script names (G24AIT071_AAI_Part1.py and G24AIT071_AAI_Part2.py). I’ve also updated the image references and clarified the script usage throughout.
-
----
-
 # Q-Learning Reinforcement Learning: Grid World Tasks
 
 This repository contains Q-learning implementations for solving custom grid world environments using Reinforcement Learning, with experiments focused on policy/value convergence and different hyperparameter settings.
